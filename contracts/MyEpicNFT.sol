@@ -8,7 +8,7 @@ import "hardhat/console.sol";
 contract MyEpicNFT is ERC721URIStorage {
       using Counters for Counters.Counter;
       Counters.Counter private _tokenIds;
-   constructor() ERC721 ("SquareNFT", "SQUARE") {
+   constructor() ERC721 ("SchieleNFT", "SCHIELEE") {
       console.log("A new NFT contract is born!");
    }
 
