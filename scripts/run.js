@@ -7,6 +7,8 @@ const main = async () => {
     await txn.wait();
     txn = await nftContract.makeAnEpicNFT();
     await txn.wait();
+    let count = await nftContract.getTotalNFTsMinted();
+    console.log(count.toNumber());
   };
   const runMain = async () => {
     try {
