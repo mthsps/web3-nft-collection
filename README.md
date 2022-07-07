@@ -1,15 +1,9 @@
-# Basic Sample Hardhat Project
+![image](https://user-images.githubusercontent.com/78484194/177667258-a0f51f02-c695-4508-b535-59e6b4e8d04e.png)
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+# NFT Collection Web3Dev bootcamp
 
-Try running some of the following tasks:
+An app that allows users to connect an Ethereum wallet and mint a unique and limited NFT for a collection visible on OpenSea.
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+## Reference and details:
+
+[Web3Dev](https://bootcamp.web3dev.com.br/courses/NFT_Collection)
